@@ -137,7 +137,8 @@ namespace FunkyGrep.UI.ViewModels
             this.IncludeSubDirectories = true;
             this.FilePatternsSpaceSeparated = "*";
             this.SkipBinaryFiles = true;
-            this.SearchPatternIsRegex = true;
+            this.SearchPatternIsRegex = false;  // true;            //Diag JD 1/7/2022 turn off regex by default
+            this.IgnoreCase = true;                                 //Diag JD 1/7/2022 turn on Ignore case by default
             this.ContextLineCount = 0;
             this.Operation = new SearchOperationViewModel();
             this.RunSearchCommand = new DelegateCommand(this.RunSearchIfValid);
