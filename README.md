@@ -1,4 +1,4 @@
-FunkyGrep
+BGrep - renamed from FunkyGrep
 =========
 What is FunkyGrep ?
 -------------------
