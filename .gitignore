@@ -1,5 +1,4 @@
 _ReSharper.*/
-bin
 obj
 *.user
 *.suo
@@ -7,3 +6,6 @@ VersionInfo.cs
 .vs
 /FunkyGrep.UI/Properties/launchSettings.json
 /FunkyGrep.UI/Properties/PublishProfiles
+FunkyGrep.Engine/bin/
+FunkyGrep.Tests/bin/
+*.pdb
